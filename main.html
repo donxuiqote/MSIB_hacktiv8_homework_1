@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <script src="homework.js"></script>    
+        <style>
+            body{
+                background-color:rgb(242,120,22) ;
+            }
+            h1{
+                color: white;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+        </style>
+    </head>
+    <body>
+        <script>
+
+            const dataPresent = videoData.filter(
+                (videoData) => videoData.present === true
+                );
+
+
+            console.log(`Terdapat ${dataPresent.length} array, yaitu :`);
+
+            const Array = dataPresent;
+            Array.forEach(dataPresent => {
+                console.log(dataPresent.name);
+            });            
+
+        </script>
+
+        <h1>
+            Filter terhadap data yang memiliki nilai present = true 
+        </h1>
+
+        
+    </body>
+</html>
